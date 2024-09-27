@@ -20,13 +20,20 @@ trykk next og følg stegene, ta ut SD korte og put det inn i Raspberry Pi'en la 
 når den har gjort alt det og du er på hjemskjermen til ubuntu trkk
 **CTRL + ALt + T** for å ta opp cmd applikasjonen
 skriv eller kopier og paste
+
 ```sudo apt update```
+
 ```sudo apt upgrade ```
+
 dette oppdatterer og installerer til programvare som er installert
 nå for brannmur gjør
+
 ```sudo apt install ufw```
+
 ```sudo ufw enable ```
+
 ```sudo ufw allow ssh``` (tillater ssh remote login)
+
 og du kan gjøre ```sudo ufw status``` til å sjekke statusen
 
 ```kode```
