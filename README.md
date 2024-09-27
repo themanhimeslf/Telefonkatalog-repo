@@ -36,6 +36,14 @@ nå for brannmur gjør
 
 og du kan gjøre ```sudo ufw status``` til å sjekke statusen
 
+og for å skru på SSH
+
+```sudo apt install openssh-server```
+``` sudo systemctl enable ssh```
+```sudo systemctl start ssh```
+
+
+
 ```kode```
 
 **bold**
